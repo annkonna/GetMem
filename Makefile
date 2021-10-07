@@ -6,8 +6,8 @@
 CC = g++
 CXXFLAGS = -std=c++11 -Wall -g
 LDFLAGS = 
-INC = -I/home/agk/ardupilot/libraries/AC_WPNav -I/home/agk/ardupilot/libraries -I/home/agk/ardupilot/build/sitl/libraries/GCS_MAVLink \
-	-I/home/agk/ardupilot/ArduCopter
+INC = -I../ardupilot/libraries/AC_WPNav -I../ardupilot/libraries -I../ardupilot/build/sitl/libraries/GCS_MAVLink \
+	-I../ardupilot/ArduCopter
 
 # Makefile settings - Can be customized.
 APPNAME = GetMem
